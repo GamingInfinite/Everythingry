@@ -1,0 +1,5 @@
+node_modules
+.prettierignore
+.svelte-kit
+build
+src-tauri
