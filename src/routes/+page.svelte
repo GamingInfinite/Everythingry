@@ -1,4 +1,8 @@
 <script lang="ts">
+  import p5rico from "$lib/images/p5r/icon.png";
+  import dndico from "$lib/images/dnd/icon.png";
+
+  import WikiTile from "$lib/components/wikiTile.svelte";
 </script>
 
 <svelte:head>
@@ -22,12 +26,14 @@
     feature on the right side of the navbar at the top.
   </div>
   <div class="flex flex-row justify-center space-x-5 text-3xl">
+    <!--#region Categories-->
     <div class="flex flex-col">
-      <div class="flex flex-row justify-center">🎮 Games</div>
+      <div class="flex flex-row justify-center">🎮 Video Games</div>
       <div class="divider" />
       <div class="flex flex-row justify-center">
         <div class="flex flex-col">
-          <a href="/p5r">Persona 5 Royal</a>
+          <!-- <a href="/p5r">Persona 5 Royal</a> -->
+          <WikiTile icon={p5rico} name="Persona 5 Royal" shortname="p5r" />
         </div>
       </div>
     </div>
@@ -38,5 +44,16 @@
         <div class="flex flex-col" />
       </div>
     </div>
+    <div class="flex flex-col">
+      <div class="flex flex-row justify-center">🎲 Table Top Games</div>
+      <div class="divider" />
+      <div class="flex flex-row justify-center">
+        <div class="flex flex-col">
+          <!-- <a href="/dnd">Dungeons and Dragons</a> -->
+          <WikiTile icon={dndico} name="Dungeons and Dragons" shortname="dnd" />
+        </div>
+      </div>
+    </div>
+    <!--#endregion-->
   </div>
 </div>

@@ -8,9 +8,15 @@
   import sojitarot from "$lib/images/p5r/confidants/sojiro/tarot.png";
   import anntarot from "$lib/images/p5r/confidants/ann/tarot.png";
   import ryujitarot from "$lib/images/p5r/confidants/ryuji/tarot.png";
+  import carjustarot from "$lib/images/p5r/confidants/wardens/tarot.png";
+  //#endregion
+
+  //#region Palace Ruler Icon Imports
+  import kamoicon from "$lib/images/p5r/palaces/kamoshida.png";
   //#endregion
 
   import P5rConfidant from "$lib/components/p5rConfidant.svelte";
+  import WikiTile from "$lib/components/wikiTile.svelte";
 </script>
 
 <svelte:head>
@@ -19,7 +25,9 @@
 
 <div class="flex flex-col justify-center text-center">
   <div class=" mx-20">
-    Welcome to the page for Persona 5 Royal.  Redacted sections of the wiki are spoilers.  You can hover to see what it says, but if you don't want spoilers you've been warned.
+    Welcome to the page for Persona 5 Royal. Redacted sections of the wiki are
+    spoilers. You can hover to see what it says, but if you don't want spoilers
+    you've been warned.
     <div class="text-red-600">
       This page is still WIP as of 1/20/2023 please bear that in mind.
     </div>
@@ -31,15 +39,24 @@
       confidant pages themselves.
     </div>
   </div>
-
-  <div class="flex flex-row flex-wrap justify-center m-3 gap-5">
+  <div class="divider">Confidants</div>
+  <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
     <P5rConfidant tarot={igortarot} name="Igor" shortname="igor" />
-    <P5rConfidant tarot={morgtarot} name="Morgana" shortname="morgana"/>
-    <P5rConfidant tarot={makotarot} name="Makoto Nijima" shortname="makoto"/>
-    <P5rConfidant tarot={harutarot} name="Haru Okumura" shortname="haru"/>
-    <P5rConfidant tarot={yusutarot} name="Yusuke Kitagawa" shortname="yusuke"/>
-    <P5rConfidant tarot={sojitarot} name="Sojiro Sakura" shortname="sojiro"/>
-    <P5rConfidant tarot={anntarot} name="Ann Takamaki" shortname="ann"/>
-    <P5rConfidant tarot={ryujitarot} name="Ryuji Sakamoto" shortname="ryuji"/>
+    <P5rConfidant tarot={morgtarot} name="Morgana" shortname="morgana" />
+    <P5rConfidant tarot={makotarot} name="Makoto Nijima" shortname="makoto" />
+    <P5rConfidant tarot={harutarot} name="Haru Okumura" shortname="haru" />
+    <P5rConfidant tarot={yusutarot} name="Yusuke Kitagawa" shortname="yusuke" />
+    <P5rConfidant tarot={sojitarot} name="Sojiro Sakura" shortname="sojiro" />
+    <P5rConfidant tarot={anntarot} name="Ann Takamaki" shortname="ann" />
+    <P5rConfidant tarot={ryujitarot} name="Ryuji Sakamoto" shortname="ryuji" />
+    <P5rConfidant
+      tarot={carjustarot}
+      name="Caroline & Justine"
+      shortname="wardens"
+    />
+  </div>
+  <div class="divider">Palaces</div>
+  <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
+    <WikiTile icon={kamoicon} name="Kamoshida's Palace" shortname="p5r/kamoshida" />
   </div>
 </div>

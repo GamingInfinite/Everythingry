@@ -11,7 +11,7 @@
         >, or Lavenza during the end of the game.</a
       >
       are the Velvet Room Assistants in this game. They also have several
-      <a class="text-blue-500" href="../outings">Outings</a>
+      <a class="text-blue-500" href="outings">Outings</a>
       that after completing with them they reward you with skill cards.
       <div class="text-red-600">
         Some Notes On Interacting With Caroline and Justine:
@@ -75,7 +75,7 @@
   <!--#endregion-->
   <!--#region Warden Fusion Requests-->
   <div class="divider">Warden Fusion Requests</div>
-  <div class="flex flex-row justify-center">
+  <div class="flex flex-row justify-center mb-5">
     <div class="overflow-x-auto outline outline-current rounded-md mx-5">
       <table class="table w-3/4">
         <thead>
@@ -87,9 +87,53 @@
         </thead>
         <tbody>
           <tr>
+            <!--Jack Frost-->
             <th>1</th>
             <td>Jack Frost with Mabufu</td>
-            <td>I'll do the requests later I'm tired I'm just gonna upload</td>
+            <td
+              >You have several options on getting this:<br />
+              First, you can fuse Silky and Berith, both found in Kamoshida's Palace<br
+              />
+              You can also fuse Kelpie and Succubus, both found later, but still
+              in Kamoshida's Palace<br />
+              You could wait till Madarame's palace and just recruit via negotiation,
+              but he only learns Mabufu at level 12, and fusing with the proper arcana
+              boost gets you there immediately.
+            </td>
+          </tr>
+          <tr>
+            <!--Ame-no-Uzume-->
+            <th>2</th>
+            <td>Ame-no-Uzume with Frei</td>
+            <td
+              >Once again, you can fuse Cait Sith and Succubus which are both
+              found in Kamoshida's, but you need to use a frei skill card, which
+              at the earliest can only be recieved by itemizing Makami.<br />
+              Option 2 is fusing Suzaku and Berith, which Berith can be found in
+              Kamoshida's Palace, but Suzaku can only be aquired via fusion, so I
+              reccoment using the first option.</td
+            >
+          </tr>
+          <tr>
+            <!--Flauros-->
+            <th>3</th>
+            <td>Flauros with Tarukaja</td>
+            <td
+              >This is gonna be a group execution between Berith, Orobas, and
+              Eligor (who naturally gets Tarukaja, and will be used to pass it
+              on to Flauros)</td
+            >
+          </tr>
+          <tr>
+            <th>4</th>
+            <td>Pheonix with Counter</td>
+            <td
+              >This is gonna be 2 steps:<br />
+              First fuse Jack o' Lantern with Hua Po which will give you Yaksini.<br
+              />
+              Then we use Yaksini and Kelpie and we get Pheonix (make sure to pass
+              Counter from Yaksini onto Pheonix)</td
+            >
           </tr>
         </tbody>
       </table>
