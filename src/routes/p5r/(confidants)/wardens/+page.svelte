@@ -1,3 +1,6 @@
+<script lang="ts">
+</script>
+
 <svelte:head>
   <title>Wardens</title>
 </svelte:head>
@@ -16,6 +19,9 @@
       <div class="text-red-600">
         Some Notes On Interacting With Caroline and Justine:
       </div>
+      You're only able to START their confidant after they give you your first fusion
+      request, which happens on May 18th (5/18)
+      <br />
       In order to rank them up you MUST go to the Velvet room and speak to them after
       fusing/summoning the Persona they request with the correct ability on it.<br
       />
@@ -111,7 +117,7 @@
               at the earliest can only be recieved by itemizing Makami.<br />
               Option 2 is fusing Suzaku and Berith, which Berith can be found in
               Kamoshida's Palace, but Suzaku can only be aquired via fusion, so I
-              reccoment using the first option.</td
+              recommend using the first option.</td
             >
           </tr>
           <tr>
@@ -125,6 +131,7 @@
             >
           </tr>
           <tr>
+            <!--Pheonix-->
             <th>4</th>
             <td>Pheonix with Counter</td>
             <td
@@ -135,6 +142,81 @@
               Counter from Yaksini onto Pheonix)</td
             >
           </tr>
+          <tr>
+            <!--Setana-->
+            <th>5</th>
+            <td>Setana with Rakukaja</td>
+            <td>
+              This one's actually really easy:<br />
+              Just fuse Silky with Lamia, and you get Setana (make sure to pass Rakukaja
+              from Lamia)
+            </td>
+          </tr>
+          <tr>
+            <!--Neko Shogun-->
+            <th>6</th>
+            <td>Neko Shogun with Dekaja</td>
+            <td>
+              If you get Anzu, they have Dekaja at level 28, then fuse it with
+              Kodama to get Sudama and pass Dekaja to it. <br />
+              <!-- svelte-ignore a11y-missing-attribute -->
+              Side Note: You can get
+              <div
+                class="inline tooltip"
+                data-tip="Orobas MUST be Level 17 for this to work"
+              >
+                <a class="font-bold text-blue-500">Anzu</a>
+              </div>
+              as early as Madarame's palace by fusing Regent (Treasure Demon in Madarame's
+              Palace) with Orobas, which can be found in Kamoshida's Palace
+            </td>
+          </tr>
+          <tr>
+            <!--Lachesis-->
+            <th>7</th>
+            <td>Lachesis with Tetraja</td>
+            <td>
+              Once again we have 2 steps here:<br />
+              First, fuse Principality (which has Tetraja by default) with Sandman
+              to get Thoth and pass Tetraja to it.<br />
+              Then fuse Thoth with Anzu and pass Tetraja (You can use the Anzu you
+              used for Neko Shogun in the previous rank by summoning it)<br />
+              Note: The earliest you can receive
+              <div
+                data-tip="Nekomata MUST be Level 17 for this to work"
+                class="inline tooltip before:whitespace-pre before:content-[attr(data-tip)]"
+              >
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <a class="font-bold text-blue-500">Sandman</a>
+              </div>
+              is by fusing Nekomata (found in Kaneshiro's Palace) and Regent (treasure
+              demon in Madarame's Palace)<br />
+              Then for Principality you need to fuse Archangel (found in Kamoshida's
+              Palace, or by fusing Regent and Angel if you didn't get Archangel back
+              in Kamoshida's) and Regent
+            </td>
+          </tr>
+          <tr>
+            <!--Hecatoncheires-->
+            <th>8</th>
+            <td>Hecatoncheires with Masukunda</td>
+            <td>
+              Another Easy One (with a catch):<br />
+              The persona Lilim gets Masukunda at level 34, which can then be fused
+              with Anzu (make sure to pass Masukunda)<br />
+              The Catch:<br />
+              <div
+                data-tip="Andras MUST be Level 27 for this to work"
+                class="inline tooltip before:whitespace-pre before:content-[attr(data-tip)]"
+              >
+                <!-- svelte-ignore a11y-missing-attribute -->
+                <a class="font-bold text-blue-500">Lilim</a>
+              </div>
+               first shows up in Okumura's palace, and is fusable earliest with Andras
+              and Queen's Necklace (Treasure Demon from Kaneshiro's Palace)
+            </td>
+          </tr>
+          <tr />
         </tbody>
       </table>
     </div>
