@@ -17,7 +17,7 @@
     </div>
   </div>
   <!--#region Outing Table-->
-  <div class="divider">Outings</div>
+  <div class="divider mx-4">Outings</div>
   <div class="flex flex-row justify-center mb-5">
     <div class="overflow-x-auto outline outline-current rounded-md mx-5">
       <table class="table w-3/4">

@@ -20,7 +20,7 @@
     </div>
   </div>
   <!--#region Confidant Rank Abilities-->
-  <div class="divider">Confidant Rank Abilities</div>
+  <div class="divider mx-4">Confidant Rank Abilities</div>
   <div class="flex flex-row justify-center">
     <div class="overflow-x-auto outline outline-current rounded-md mx-5">
       <table class="table w-3/4">

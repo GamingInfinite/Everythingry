@@ -15,6 +15,10 @@
   import kamoicon from "$lib/images/p5r/palaces/kamoshida.png";
   //#endregion
 
+  //#region This is for Other shit IG
+
+  //#endregion
+
   import P5rConfidant from "$lib/components/p5rConfidant.svelte";
   import WikiTile from "$lib/components/wikiTile.svelte";
 </script>
@@ -39,7 +43,11 @@
       confidant pages themselves.
     </div>
   </div>
-  <div class="divider">Confidants</div>
+  <div class="divider mx-4">Guides</div>
+  <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
+    <WikiTile name="New Game+" shortname="p5r/ng+" />
+  </div>
+  <div class="divider mx-4">Confidants</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
     <P5rConfidant tarot={igortarot} name="Igor" shortname="igor" />
     <P5rConfidant tarot={morgtarot} name="Morgana" shortname="morgana" />
@@ -55,8 +63,12 @@
       shortname="wardens"
     />
   </div>
-  <div class="divider">Palaces</div>
+  <div class="divider mx-4">Palaces</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
-    <WikiTile icon={kamoicon} name="Kamoshida's Palace" shortname="p5r/kamoshida" />
+    <WikiTile
+      icon={kamoicon}
+      name="Kamoshida's Palace"
+      shortname="p5r/kamoshida"
+    />
   </div>
 </div>
