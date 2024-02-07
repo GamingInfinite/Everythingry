@@ -1,24 +1,4 @@
 <script lang="ts">
-  //#region Tarot Image Imports
-  import igortarot from "$lib/images/p5r/confidants/igor/tarot.png";
-  import morgtarot from "$lib/images/p5r/confidants/morgana/tarot.png";
-  import makotarot from "$lib/images/p5r/confidants/makoto/tarot.png";
-  import harutarot from "$lib/images/p5r/confidants/haru/tarot.png";
-  import yusutarot from "$lib/images/p5r/confidants/yusuke/tarot.png";
-  import sojitarot from "$lib/images/p5r/confidants/sojiro/tarot.png";
-  import anntarot from "$lib/images/p5r/confidants/ann/tarot.png";
-  import ryujitarot from "$lib/images/p5r/confidants/ryuji/tarot.png";
-  import carjustarot from "$lib/images/p5r/confidants/wardens/tarot.png";
-  //#endregion
-
-  //#region Palace Ruler Icon Imports
-  import kamoicon from "$lib/images/p5r/palaces/kamoshida.png";
-  //#endregion
-
-  //#region This is for Other shit IG
-
-  //#endregion
-
   import P5rConfidant from "$lib/components/p5rConfidant.svelte";
   import WikiTile from "$lib/components/wikiTile.svelte";
 </script>
@@ -46,29 +26,39 @@
   <div class="divider mx-4">Guides</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
     <WikiTile name="New Game+" shortname="p5r/ng+" />
+    <WikiTile name="Darts & Billiards" shortname="p5r/darts"></WikiTile>
   </div>
   <div class="divider mx-4">Confidants</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
-    <P5rConfidant tarot={igortarot} name="Igor" shortname="igor" />
-    <P5rConfidant tarot={morgtarot} name="Morgana" shortname="morgana" />
-    <P5rConfidant tarot={makotarot} name="Makoto Nijima" shortname="makoto" />
-    <P5rConfidant tarot={harutarot} name="Haru Okumura" shortname="haru" />
-    <P5rConfidant tarot={yusutarot} name="Yusuke Kitagawa" shortname="yusuke" />
-    <P5rConfidant tarot={sojitarot} name="Sojiro Sakura" shortname="sojiro" />
-    <P5rConfidant tarot={anntarot} name="Ann Takamaki" shortname="ann" />
-    <P5rConfidant tarot={ryujitarot} name="Ryuji Sakamoto" shortname="ryuji" />
-    <P5rConfidant
-      tarot={carjustarot}
-      name="Caroline & Justine"
-      shortname="wardens"
-    />
+    <P5rConfidant name="Igor" shortname="igor" />
+    <P5rConfidant name="Morgana" shortname="morgana" />
+    <P5rConfidant name="Makoto Nijima" shortname="makoto" />
+    <P5rConfidant name="Haru Okumura" shortname="haru" />
+    <P5rConfidant name="Yusuke Kitagawa" shortname="yusuke" />
+    <P5rConfidant name="Sojiro Sakura" shortname="sojiro" />
+    <P5rConfidant name="Ann Takamaki" shortname="ann" />
+    <P5rConfidant name="Ryuji Sakamoto" shortname="ryuji" />
+    <P5rConfidant name="Goro Akechi" shortname="akechi"></P5rConfidant>
+    <P5rConfidant name="Futaba Sakura" shortname="futaba"></P5rConfidant>
+    <P5rConfidant name="Chihaya Mifune" shortname="chihaya"></P5rConfidant>
+    <P5rConfidant name="Caroline & Justine" shortname="wardens" />
+    <P5rConfidant name="Munehisa Iwai" shortname="iwai"></P5rConfidant>
+    <P5rConfidant name="Tae Takemi" shortname="takemi"></P5rConfidant>
+    <P5rConfidant name="Sadayo Kawakami" shortname="kawakami"></P5rConfidant>
+    <P5rConfidant name="Ichiko Ohya" shortname="ohya"></P5rConfidant>
+    <P5rConfidant name="Shinya Oda" shortname="shinya"></P5rConfidant>
+    <P5rConfidant name="Hifumi Togo" shortname="iwai"></P5rConfidant>
+    <P5rConfidant name="Yuuki Mishima" shortname="mishima"></P5rConfidant>
+    <P5rConfidant name="Toranosuke Yoshida" shortname="yoshida"></P5rConfidant>
+    <P5rConfidant name="Sae Nijima" shortname="sae"></P5rConfidant>
+    <P5rConfidant name="Yoshizawa" shortname="kasumi"></P5rConfidant>
   </div>
   <div class="divider mx-4">Palaces</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">
     <WikiTile
-      icon={kamoicon}
       name="Kamoshida's Palace"
       shortname="p5r/kamoshida"
+      icon="src/lib/images/p5r/palaces/kamoshida.png"
     />
   </div>
 </div>

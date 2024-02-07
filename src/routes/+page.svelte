@@ -1,7 +1,4 @@
 <script lang="ts">
-  import p5rico from "$lib/images/p5r/icon.png";
-  import dndico from "$lib/images/dnd/icon.png";
-
   import WikiTile from "$lib/components/wikiTile.svelte";
 </script>
 
@@ -33,7 +30,7 @@
       <div class="flex flex-row justify-center">
         <div class="flex flex-col">
           <!-- <a href="/p5r">Persona 5 Royal</a> -->
-          <WikiTile icon={p5rico} name="Persona 5 Royal" shortname="p5r" />
+          <WikiTile name="Persona 5 Royal" shortname="p5r" />
         </div>
       </div>
     </div>
@@ -50,7 +47,7 @@
       <div class="flex flex-row justify-center">
         <div class="flex flex-col">
           <!-- <a href="/dnd">Dungeons and Dragons</a> -->
-          <WikiTile icon={dndico} name="Dungeons and Dragons" shortname="dnd" />
+          <WikiTile name="Dungeons and Dragons" shortname="dnd" />
         </div>
       </div>
     </div>

@@ -9,7 +9,6 @@
     url = document.URL.replace("http://", "");
     url = url.substring(url.indexOf("/") + 1);
     references = url.split("/");
-    console.log(references);
   });
 </script>
 
