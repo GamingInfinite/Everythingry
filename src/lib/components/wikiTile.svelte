@@ -1,7 +1,7 @@
 <script lang="ts">
   export var shortname;
   export var name;
-  export var icon = `src/lib/images/${shortname}/icon.png`;
+  export var icon = `/images/${shortname}/icon.png`;
 </script>
 
 <a class="bg-base-200 rounded-box p-3 text-center" href="/{shortname}">

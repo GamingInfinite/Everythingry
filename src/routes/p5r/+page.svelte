@@ -58,7 +58,7 @@
     <WikiTile
       name="Kamoshida's Palace"
       shortname="p5r/kamoshida"
-      icon="src/lib/images/p5r/palaces/kamoshida.png"
+      icon="/images/p5r/palaces/kamoshida.png"
     />
   </div>
 </div>
