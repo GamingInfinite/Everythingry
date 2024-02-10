@@ -259,6 +259,34 @@ const ConfidantRankTables: { [key: string]: Rank[] } = {
         "Necronomicon transforms into Prometheus, giving her the ability to prevent a fatal blow to a current party member",
     },
   ],
+  mishima: [
+    {
+      level: 1,
+      abilities: ["Mishima's Support"],
+      description: "Allows backup members to earn EXP.",
+    },
+    {
+      level: 3,
+      abilities: ["Mishima's Enthusiasm"],
+      description: "Increases EXP earned from battle.",
+    },
+    {
+      level: 5,
+      abilities: ["Mishima's Desperation"],
+      description: "Increases EXP earned by backup members.",
+    },
+    {
+      level: 7,
+      abilities: ["Phanboy"],
+      description: "Greatly increases EXP earned from battle.",
+    },
+    {
+      level: 10,
+      abilities: ["Salvation Wish"],
+      description:
+        "Allows backup members to earn the same EXP as current party members.",
+    },
+  ],
 };
 
 export default ConfidantRankTables;

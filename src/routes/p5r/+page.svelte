@@ -52,6 +52,7 @@
     <P5rConfidant name="Toranosuke Yoshida" shortname="yoshida"></P5rConfidant>
     <P5rConfidant name="Sae Nijima" shortname="sae"></P5rConfidant>
     <P5rConfidant name="Yoshizawa" shortname="kasumi"></P5rConfidant>
+    <P5rConfidant name="Takuto Maruki" shortname="maruki"></P5rConfidant>
   </div>
   <div class="divider mx-4">Palaces</div>
   <div class="flex flex-row flex-wrap justify-center m-3 mx-8 gap-5">

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { afterUpdate, onMount } from "svelte";
+  import { afterUpdate } from "svelte";
   import {page} from "$app/stores"
   import "../app.css";
 
@@ -10,7 +10,6 @@
     url = $page.url.pathname
     url = url.substring(url.indexOf("/") + 1);
     references = url.split("/");
-    console.log(references)
   });
 </script>
 
