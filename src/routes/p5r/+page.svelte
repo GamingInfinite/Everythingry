@@ -47,7 +47,7 @@
     <P5rConfidant name="Sadayo Kawakami" shortname="kawakami"></P5rConfidant>
     <P5rConfidant name="Ichiko Ohya" shortname="ohya"></P5rConfidant>
     <P5rConfidant name="Shinya Oda" shortname="shinya"></P5rConfidant>
-    <P5rConfidant name="Hifumi Togo" shortname="iwai"></P5rConfidant>
+    <P5rConfidant name="Hifumi Togo" shortname="hifumi"></P5rConfidant>
     <P5rConfidant name="Yuuki Mishima" shortname="mishima"></P5rConfidant>
     <P5rConfidant name="Toranosuke Yoshida" shortname="yoshida"></P5rConfidant>
     <P5rConfidant name="Sae Nijima" shortname="sae"></P5rConfidant>
