@@ -289,4 +289,66 @@ const ConfidantRankTables: { [key: string]: Rank[] } = {
   ],
 };
 
+export const WardenRequests: { name: string; level: number; description: string }[] = [
+  {
+    name: "Jack Frost with Mabufu",
+    level: 1,
+    description:
+      "You can fuse Silky and Berith, both found in Kamoshida's Palace",
+  },
+  {
+    name: "Ame-no-Uzume with Frei",
+    level: 2,
+    description:
+      "You can fuse Cait Sith and Succubus which are both found in Kamoshida's, but you need to use a frei skill card, which at the earliest can only be recieved by itemizing Makami.",
+  },
+  {
+    name: "Flauros with Tarukaja",
+    level: 3,
+    description:
+      "This is gonna be a group execution between Berith, Orobas, and Eligor (who naturally gets Tarukaja)",
+  },
+  {
+    name: "Pheonix with Counter",
+    level: 4,
+    description:
+      "Get Yaksini by fusing Jack o' Lantern with Hua Po then fuse Yaksini with Kelpie",
+  },
+  {
+    name: "Setana with Rakukaja",
+    level: 5,
+    description: "You can fuse Silky with Lamia",
+  },
+  {
+    name: "Neko Shogun with Dekaja",
+    level: 6,
+    description:
+      "You can fuse Anzu after level 28 with Sudama and Kodama to get Neko Shogun",
+  },
+  {
+    name: "Lachesis with Tetraja",
+    level: 7,
+    description:
+      "You can fuse Principality with Sandman to get Thoth, and then fuse Thoth with Anzu",
+  },
+  {
+    name: "Hecatoncheires with Masukunda",
+    level: 8,
+    description:
+      "Lilim gets Masukunda at level 34 which can then be fused with Anzu",
+  },
+  {
+    name: "Bugs with Samarecarm",
+    level: 9,
+    description:
+      "There is a Mementos request that unlocks on 7/10 that needs to be completed to get the item that unlocks bugs, then fuse Neko Shogun with Principality to get Hariti, and then fuse Hariti with Pisaca",
+  },
+  {
+    name: "Seth with High Counter",
+    level: 10,
+    description:
+      "Seth is listed under special fusions, and you can get a High Counter Card from a Mementos Quest on 10/14",
+  },
+];
+
 export default ConfidantRankTables;
