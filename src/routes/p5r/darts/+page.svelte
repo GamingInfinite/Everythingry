@@ -57,7 +57,7 @@
           <td> Have fun with it. </td>
         </tr>
         <tr>
-          <th> Sumire </th>
+          <th> Yoshizawa </th>
           <td> Trust your instincts. </td>
         </tr>
         <tr>
