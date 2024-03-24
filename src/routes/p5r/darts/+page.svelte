@@ -56,6 +56,14 @@
           <th>Haru</th>
           <td> Have fun with it. </td>
         </tr>
+        <tr>
+          <th> Sumire </th>
+          <td> Trust your instincts. </td>
+        </tr>
+        <tr>
+          <th>Akechi</th>
+          <td> Is annoying and picks 701. </td>
+        </tr>
       </table>
     </div>
   </div>
